@@ -166,7 +166,7 @@ async def play(_, message: Message):
 
 ❇️**Judul:** {x["title"]}
 
-⏳ **Durasi:** {round(x["duration"] / 60)} Mins
+⏳ **Durasi:** {round(x["duration"] / 180)} Mins
 👀 **Ditonton:** `{x["view_count"]}`
 👍 **Suka:** `{x["like_count"]}`
 👎 **Tidak suka:** `{x["dislike_count"]}`
